@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="esp_david — projects, drops, and updates.">
+  <title>esp_david | Store + Blog</title>
+  <style>
+    :root { --ink:#eef3ff; --muted:#99a9c7; --bg:#070a12; --card:#0d1220; --line:#26304a; --hot:#79f7bd; --violet:#a991ff; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:radial-gradient(circle at 90% 0%,#19224a 0,transparent 30rem),var(--bg); color:var(--ink); font-family:Arial,Helvetica,sans-serif; line-height:1.55; }
+    a { color:inherit; }
+    nav { max-width:1100px; margin:auto; padding:1.2rem 1.25rem; display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+    .logo { text-decoration:none; font-weight:900; letter-spacing:.06em; }
+    .logo span { color:var(--hot); }
+    nav div { display:flex; gap:1rem; font-size:.95rem; }
+    nav div a { color:var(--muted); text-decoration:none; }
+    nav div a:hover { color:var(--ink); }
+    main { max-width:1100px; margin:auto; padding:2.5rem 1.25rem 4rem; }
+    .hero { min-height:330px; display:grid; align-content:center; max-width:760px; }
+    .tag { color:var(--hot); font-size:.8rem; letter-spacing:.16em; font-weight:bold; text-transform:uppercase; }
+    h1 { font-size:clamp(2.8rem,9vw,5.7rem); line-height:.95; letter-spacing:-.06em; margin:.55rem 0 1.25rem; }
+    .hero p { color:var(--muted); font-size:1.1rem; max-width:600px; margin:0 0 1.5rem; }
+    .button { display:inline-block; background:var(--hot); color:#07140f; padding:.78rem 1rem; border-radius:.45rem; font-weight:800; text-decoration:none; }
+    section { padding-top:4.25rem; }
+    h2 { margin:0 0 1.2rem; font-size:1.8rem; letter-spacing:-.035em; }
+    .sub { color:var(--muted); margin:-.7rem 0 1.4rem; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; }
+    .card { border:1px solid var(--line); background:linear-gradient(145deg,#11192a,#0b101c); padding:1.15rem; border-radius:.75rem; min-height:215px; display:flex; flex-direction:column; }
+    .type { color:var(--violet); font-size:.78rem; letter-spacing:.12em; text-transform:uppercase; font-weight:bold; }
+    h3 { margin:.55rem 0 .45rem; font-size:1.25rem; }
+    .card p { color:var(--muted); margin:0 0 1.25rem; font-size:.96rem; }
+    .card .button { margin-top:auto; align-self:flex-start; }
+    .post { border-top:1px solid var(--line); padding:1.2rem 0; display:grid; grid-template-columns:130px 1fr; gap:1rem; }
+    .date { color:var(--hot); font-size:.85rem; font-weight:bold; }
+    .post h3 { margin:0 0 .25rem; }
+    footer { border-top:1px solid var(--line); color:var(--muted); text-align:center; padding:2rem 1.25rem; font-size:.9rem; }
+    @media (max-width:700px) { .grid { grid-template-columns:1fr; } .post { grid-template-columns:1fr; gap:.2rem; } h1 { letter-spacing:-.045em; } }
+  </style>
+</head>
+<body>
+  <nav>
+    <a class="logo" href="#top">esp_<span>david</span></a>
+    <div><a href="#store">Store</a><a href="#blog">Blog</a><a href="https://www.vinted.com/member/3188058384" target="_blank" rel="noopener">Vinted ↗</a></div>
+  </nav>
+  <main id="top">
+    <header class="hero">
+      <div class="tag">Projects • Parts • Drops</div>
+      <h1>Build cool.<br>Stay curious.</h1>
+      <p>Welcome to esp_david. Check out current listings, electronics projects, and updates from the workbench.</p>
+      <p><a class="button" href="#store">See the store</a></p>
+    </header>
+    <section id="store">
+      <h2>Store</h2>
+      <p class="sub">All purchases and current prices are handled safely through my Vinted profile.</p>
+      <div class="grid">
+        <article class="card"><div class="type">Featured listing</div><h3>Latest drop</h3><p>See my newest item and its price on Vinted.</p><a class="button" href="https://www.vinted.com/member/3188058384" target="_blank" rel="noopener">Buy on Vinted ↗</a></article>
+        <article class="card"><div class="type">Electronics</div><h3>ESP32 projects</h3><p>Custom builds, parts, and project-related listings when available.</p><a class="button" href="https://www.vinted.com/member/3188058384" target="_blank" rel="noopener">View listings ↗</a></article>
+        <article class="card"><div class="type">More</div><h3>Browse everything</h3><p>My Vinted page always has the most up-to-date selection.</p><a class="button" href="https://www.vinted.com/member/3188058384" target="_blank" rel="noopener">Open Vinted ↗</a></article>
+      </div>
+    </section>
+    <section id="blog">
+      <h2>Blog</h2>
+      <p class="sub">Workbench notes and new-drop updates.</p>
+      <article class="post"><div class="date">NEW</div><div><h3>Store is live</h3><p>This page is now the home for listings and updates. Use any Buy button to see what is available right now.</p></div></article>
+      <article class="post"><div class="date">PROJECTS</div><div><h3>ESP32 builds in progress</h3><p>I’m working on new electronics projects and will post updates here as they are ready.</p></div></article>
+    </section>
+  </main>
+  <footer>© 2026 esp_david · Listings are on <a href="https://www.vinted.com/member/3188058384" target="_blank" rel="noopener">Vinted</a></footer>
+</body>
+</html>
